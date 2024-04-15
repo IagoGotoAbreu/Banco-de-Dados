@@ -200,7 +200,7 @@ nome varchar(45),
 telefone char(14),
 email varchar(45),
 fkTreinadorExp int,
-constraint fkTreinadorExp foreign key (fkTreinadorExp)
+constraint fkNovatoExp foreign key (fkTreinadorExp)
 	references treinador(idTreinador));
     
 insert into treinador values
